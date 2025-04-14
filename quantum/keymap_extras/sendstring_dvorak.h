@@ -18,7 +18,10 @@
 
 #pragma once
 
+#include "send_string.h"
 #include "keymap_dvorak.h"
+
+// clang-format off
 
 const uint8_t ascii_to_keycode_lut[128] PROGMEM = {
     // NUL   SOH      STX      ETX      EOT      ENQ      ACK      BEL
